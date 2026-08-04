@@ -1,0 +1,77 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Downloaded papers and generated data
+downloads/
+papers/
+data/
+cache/
+tmp/
+output/
+outputs/
+results/
+
+# Vector databases
+faiss_index/
+chroma/
+chroma_db/
+vectorstore/
+vectorstores/
+
+# LangGraph / LangChain checkpoints
+checkpoints/
+.sqlite
+*.db
+
+# Model artifacts
+models/
+
+# Temporary files
+*.tmp
+*.temp

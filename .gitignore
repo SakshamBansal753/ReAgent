@@ -47,15 +47,7 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-# Downloaded papers and generated data
-downloads/
-papers/
-data/
-cache/
-tmp/
-output/
-outputs/
-results/
+
 
 # Vector databases
 faiss_index/
@@ -69,8 +61,7 @@ checkpoints/
 .sqlite
 *.db
 
-# Model artifacts
-models/
+
 
 # Temporary files
 *.tmp
